@@ -1,0 +1,21 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="he-il" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Teams" />
+      <!-- Add a placeholder for the PRODUCT KEY -->
+      <ProductKey Value="YOUR_PRODUCT_KEY_PLACEHOLDER" />
+    </Product>
+  </Add>
+  <Display Level="None" AcceptEULA="True" />
+  <Property Name="SharedComputerLicensing" Value="1" />
+  <Property Name="PinIconsToTaskbar" Value="TRUE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+</Configuration>
